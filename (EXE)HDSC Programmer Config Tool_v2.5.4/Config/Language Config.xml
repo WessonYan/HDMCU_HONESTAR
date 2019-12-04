@@ -1,0 +1,152 @@
+﻿<Language>
+  <LanguageSelect>0</LanguageSelect>
+  <Chinese>
+    <Text>
+      <PartNo>芯片名称</PartNo>
+      <XTAL>XTAL(MHz)</XTAL>
+      <Baudrate>波特率(bps)</Baudrate>
+      <Counts>计数(Dec)</Counts>
+      <Encryption>文件加密</Encryption>
+      <MCUEncryption>芯片加密</MCUEncryption>
+      <PowerSupply>供电</PowerSupply>
+      <Reset>复  位</Reset>
+      <WriteLock>编程时写选项字节</WriteLock>
+      <WriteLockArea>编程时写保护值设置</WriteLockArea>
+      <Encrypt>加密</Encrypt>
+      <EncryptDisorder>数据加密</EncryptDisorder>
+      <EncryptArea>数据加密范围设置</EncryptArea>
+      <Keys>密钥</Keys>
+      <PGMHexFile>PGM Hex文件</PGMHexFile>
+      <TargetHexFile>目标Hex文件</TargetHexFile>
+      <MCUInformation>MCU信息</MCUInformation>
+      <Series>系列</Series>
+      <Type>类型</Type>
+      <OK>确定</OK>
+      <Customized>滚码功能</Customized>
+      <Version>版本：</Version>
+      <VersionValue>2.5</VersionValue>
+      <WebURL>www.hdsc.com.cn</WebURL>
+      <PageErase>页擦除</PageErase>
+      <ChipErase>片擦除</ChipErase>
+      <BaudrateValue>
+        <BaudrateValueText>请选择晶振频率</BaudrateValueText>
+        <Items>7</Items>
+        <Item0>9600</Item0>
+        <Item1>19200</Item1>
+        <Item2>38400</Item2>
+        <Item3>76800</Item3>
+        <Item4>115200</Item4>
+        <Item5>128000</Item5>
+        <Item6>256000</Item6>
+      </BaudrateValue>
+    </Text>
+    <ErrorInformation>
+      <ErrorInformationText>错误</ErrorInformationText>
+      <SelectTargetMCUEmpty>请输入目标MCU</SelectTargetMCUEmpty>
+      <SelectFrequencyEmpty>请输入晶振频率</SelectFrequencyEmpty>
+      <CountsEmpty>请输入计数值</CountsEmpty>
+      <KeysEmpty>请输入密钥</KeysEmpty>
+      <SelectHexFileEmpty>请选择Hex文件</SelectHexFileEmpty>
+      <URLError>文件路径不正确或文件无效</URLError>
+      <FileFormatError>文件格式错误</FileFormatError>
+      <ProcessError>处理失败</ProcessError>
+      <CountsOverFlow>计数值超出限制</CountsOverFlow>
+      <MCUNotFind>MCU不存在</MCUNotFind>
+      <ParameterErr>参数错误：</ParameterErr>
+      <FileNameEmpty>请输入配置文件名字</FileNameEmpty>
+      <Error_Customized>定制参数不符合格式!</Error_Customized>
+      <Error_InvalidFileName>文件名不符合Windows命名规则，请重新输入！</Error_InvalidFileName>
+      <Error_FileNameLength>文件名长度超出范围(25个字符以内).</Error_FileNameLength>
+      <Error_InvalidNumber>数据无效，请输入正确格式的数字0x(00-FF)</Error_InvalidNumber>
+    </ErrorInformation>
+    <WarningInformation>
+      <WarningInformationText>提示</WarningInformationText>
+      <ProcessSuccessful>处理成功</ProcessSuccessful>
+      <CancelMCUEncryption>如果取消MCU芯片加密，可能导致文件从MCU Flash中被获取，是否继续取消MCU芯片加密？</CancelMCUEncryption>
+      <Hint_FileName>请输入自定义文件名</Hint_FileName>
+      <Hint_Customized>请输入定制化参数,参数之间以分号 ; 隔开</Hint_Customized>
+      <Warn_Customized>请输入：地址;步长;初始滚码值,以分号 ; 隔开</Warn_Customized>
+      <Hint_ValidKeyLength>秘钥有效长度应为: 2 - 16</Hint_ValidKeyLength>
+      <Hint_ValidKey>秘钥格式只能为ASCII码！</Hint_ValidKey>
+      <Hint_CfgOLED>请检查您的PGM是否为带屏版,带屏版才可配置此选项!</Hint_CfgOLED>
+      <Hint_ValidFileName>提示: 文件名必须符合ASCII码规则!</Hint_ValidFileName>
+      <Hint_MCUSelection>请搜索或选择对应的芯片型号</Hint_MCUSelection>
+      <Hint_ValidNumber>请输出有效的数字，范围0x(00-FF).</Hint_ValidNumber>
+      <Hint_DefaultNumber>写保护字为默认值0xFFFFFFFF,所需修改请点击“选项字节设置”.</Hint_DefaultNumber>
+    </WarningInformation>
+  </Chinese>
+  <English>
+    <Text>
+      <PartNo>Part No.</PartNo>
+      <XTAL>XTAL(MHz)</XTAL>
+      <Baudrate>Baudrate</Baudrate>
+      <Counts>Counts(Dec)</Counts>
+      <Encryption>Encryption</Encryption>
+      <MCUEncryption>MCU Encryption</MCUEncryption>
+      <PowerSupply>Power Supply</PowerSupply>
+      <Reset>Reset</Reset>
+      <WriteLock>Write when programming</WriteLock>
+      <WriteLockArea>Write lock area</WriteLockArea>
+      <Encrypt>Encrypt</Encrypt>
+      <EncryptArea>Encrypt Area Setting</EncryptArea>
+      <Keys>Keys</Keys>
+      <PGMHexFile>PGM Hex File</PGMHexFile>
+      <TargetHexFile>Target Hex File</TargetHexFile>
+      <MCUInformation>MCU Info.</MCUInformation>
+      <Series>Series</Series>
+      <Type>Type</Type>
+      <OK>OK</OK>
+      <Customized>Customized</Customized>
+      <Version>Version</Version>
+      <VersionValue>1.0.0</VersionValue>
+      <WebURL>www.hdsc.com.cn</WebURL>
+      <PageErase>PageErase</PageErase>
+      <ChipErase>ChipErase</ChipErase>
+      <BaudrateValue>
+        <BaudrateValueText>请选择晶振频率</BaudrateValueText>
+        <Items>7</Items>
+        <Item0>9600</Item0>
+        <Item1>19200</Item1>
+        <Item2>38400</Item2>
+        <Item3>76800</Item3>
+        <Item4>115200</Item4>
+        <Item5>128000</Item5>
+        <Item6>256000</Item6>
+      </BaudrateValue>
+    </Text>
+    <ErrorInformation>
+      <ErrorInformationText>Error</ErrorInformationText>
+      <SelectTargetMCUEmpty>Please press Target MCU</SelectTargetMCUEmpty>
+      <SelectFrequencyEmpty>Please press Crystal Frequency</SelectFrequencyEmpty>
+      <SelectHexFileEmpty>Please select Hex File</SelectHexFileEmpty>
+      <URLError>File URL error or file protected</URLError>
+      <FileFormatError>File format error</FileFormatError>
+      <CountsEmpty>Please press count value</CountsEmpty>
+      <KeysEmpty>Please press count keys</KeysEmpty>
+      <ProcessError>Process fail</ProcessError>
+      <CountsOverFlow>Counts OverFlow</CountsOverFlow>
+      <MCUNotFind>MCU Not Find</MCUNotFind>
+      <ParameterErr>Parameter error, please press it again</ParameterErr>
+      <FileNameEmpty>Please press Target MCU</FileNameEmpty>
+      <Error_Customized>定制参数不符合格式!</Error_Customized>
+      <Error_InvalidFileName>文件名不符合Windows命名规则，请重新输入！</Error_InvalidFileName>
+      <Error_FileNameLength>文件名长度超出范围(25个字符以内).</Error_FileNameLength>
+      <Error_InvalidNumber>数据无效，请输入正确格式的数字(00-FF)</Error_InvalidNumber>
+    </ErrorInformation>
+    <WarningInformation>
+      <WarningInformationText>Hint</WarningInformationText>
+      <ProcessSuccessful>Process Successful</ProcessSuccessful>
+      <CancelMCUEncryption>If cancel the MCU Flash lock, may lead to be encrypted files were obtained from the MCU Flash, whether to continue to cancel MCU Flash lock?</CancelMCUEncryption>
+      <Hint_FileName>请输入自定义文件名</Hint_FileName>
+      <Hint_Customized>请输入定制化参数</Hint_Customized>
+      <Warn_Customized>定制参数格式例如：0x01;0x02;0x03</Warn_Customized>
+      <Hint_ValidKeyLength>秘钥有效长度应为: 2 - 16</Hint_ValidKeyLength>
+      <Hint_ValidKey>秘钥格式只能为ASCII码！</Hint_ValidKey>
+      <Hint_CfgOLED>请检查您的PGM是否为带屏版,带屏版才可配置此选项!</Hint_CfgOLED>
+      <Hint_ValidFileName>提示: 文件名必须符合ASCII码规则！</Hint_ValidFileName>
+      <Hint_MCUSelection>请搜索或选择对应的芯片型号</Hint_MCUSelection>
+      <Hint_ValidNumber>请输出有效的数字，范围0x(00-FF).</Hint_ValidNumber>
+      <Hint_DefaultNumber>写保护字为默认值0x00000000,所需修改请点击“选项字节设置”.</Hint_DefaultNumber>
+    </WarningInformation>
+  </English>
+</Language>
